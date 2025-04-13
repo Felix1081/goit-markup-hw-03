@@ -83,7 +83,6 @@ a {
 .hero-image {
     background-color: #2e2f42;
     padding: 188px;
-    border: 5px solid red;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -133,7 +132,9 @@ section p {
 .features {
     display: none;
 }
-
+.features-list {
+    border: 5px solid red;
+}
 /*
 .featurs-title {
     font-weight: 500;

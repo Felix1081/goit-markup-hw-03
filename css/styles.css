@@ -145,7 +145,7 @@ section p {
 .features {
     padding: 120px 0;
 }
-.features-title {
+.visually-hidden {
     display: none;
 }
 .features-list {
@@ -229,10 +229,14 @@ section p {
 
 .ftr {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .logo {
-    display: inline-block;
+    
     margin-bottom: 16px;
+}
+.dop-clas {
+    display: inline-block;
 }
 .ftr-txt {
     font-weight: 400;

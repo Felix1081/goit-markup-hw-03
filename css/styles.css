@@ -33,9 +33,7 @@ a {
     padding-right: 15px;
     display: flex;
 }
-.section {
-    padding-bottom: 120px;
-}
+
 /*start-header*/
 .header {
     margin: 24px 156px 24px 156px;
@@ -98,11 +96,6 @@ a {
 .hero-image {
     background-color: #2e2f42;
     padding: 188px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
 }
 .title {
     color: white;
@@ -111,6 +104,7 @@ a {
     line-height: 107%;
     letter-spacing: 0.02em;
     padding-bottom: 48px;
+    max-width: 496px;
 }
 .button {
     font-family: "Roboto", sans-serif;
@@ -123,7 +117,12 @@ a {
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15)
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin: auto;
 }
 .button:hover, .button:focus {
     background-color: #404BBF;

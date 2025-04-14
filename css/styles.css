@@ -53,6 +53,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 .logo-studio {
     font-weight: 700;
@@ -61,7 +62,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
-    margin-right: 76px;
+    
 }
 .header-list {
     display: flex;

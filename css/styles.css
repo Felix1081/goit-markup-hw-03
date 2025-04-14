@@ -146,7 +146,7 @@ section p {
     padding: 120px 0;
 }
 .visually-hidden {
-    display: none;
+    visibility: hidden;
 }
 .features-list {
     display: flex;
@@ -235,9 +235,9 @@ section p {
     
     margin-bottom: 16px;
 }
-.dop-clas {
+/* .dop-clas {
     display: inline-block;
-}
+} */
 .ftr-txt {
     font-weight: 400;
     font-size: 16px;
